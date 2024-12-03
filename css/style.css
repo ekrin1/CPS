@@ -1,9 +1,5 @@
 
-@font-face {
-  font-family: "TT Lakes";
-  src: url(fonts/TTLakes-Regular.ttf);
-  src: local("fonts/TT Lakes Regular");
-}
+@import url(./fonts.css);
 
 html {
   box-sizing: border-box;
