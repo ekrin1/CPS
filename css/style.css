@@ -9,11 +9,12 @@ body {
   font-family: "TT Lakes";
   font-weight: 400;
   min-width: 320px;
+  max-width: 1120px;
   letter-spacing: 0.2px;
   background-color: #F8F8F8;
   margin: 0 auto;
 }
-
+ 
 .header {
   height: 88px;
   border-bottom: 1px solid #D9FFF5;
@@ -130,11 +131,11 @@ body {
     font-weight: bold;
     font-size: 28px;
     line-height: 40px;
-    letter-spacing: 0.6px; 
+    letter-spacing: 0.3px; 
     left: 16px;
   }
 
-  .services-inner__desktop::before {
+  .title__highlight::before {
     content: "";
     background: #41F6D7;
     border-top-right-radius: 4px;
@@ -142,9 +143,7 @@ body {
     width: 4px;
     height: 40px;
     position: absolute;
-    left: 0px;
-    
-    
+    left: -16px;
   }
 
   .menu-services {
@@ -313,14 +312,14 @@ body {
   }
 
   .logo__decor::before {
-      display: block;
-      content: "";
-      background: #EAEAEA;
-      width: 2px;
-      height: 32px;
-      position: absolute;
-      left: 80px;
-      top: 30px;
+    display: block;
+    content: "";
+    background: #EAEAEA;
+    width: 2px;
+    height: 32px;
+    position: absolute;
+    left: 80px;
+    top: 30px;
   }
 
   .services__btns {
@@ -353,9 +352,10 @@ body {
       color:#1B1C21 ;
   }
 
-  .title-services::before {
-    left: -23px;
+  .title__highlight::before {
+    left: -9px
   }
+
 
   .menu-services {
       margin-bottom: 15px;
@@ -386,19 +386,19 @@ body {
   }
 
   .about-us__hidden {
-    margin-bottom: 0px;
-    width: 270px;
+    text-align: left;
     font-size: 14px;
-    margin-right: 46px;
     line-height: 20px;
+    letter-spacing: 0.2px;
+    width: 312px;
     height: 160px;
-    overflow-y: hidden;
+    margin-top: 0px;
   }
 
   .office__office {
     width: 100%;
     min-width: 360px;
-    max-width: 530px;
+    max-width: 720px;
     border-radius: 6px;
   }
 }
